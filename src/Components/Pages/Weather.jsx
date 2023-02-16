@@ -15,7 +15,6 @@ const Weather = () => {
   const [color, setColor] = useState("");
   const [weatherData, setWeatherData] = useState();
   const [recent, setRecent] = useState([]);
-  // const recentdata=[]
 
   const apikey = "1cad30e3e974f797a047ea62fd1c8970";
 

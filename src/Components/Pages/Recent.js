@@ -6,7 +6,6 @@ const Recent = ({ recent, dataForResult }) => {
   const [content, setContent] = useState({});
   const [dataPages,setDataPages]=useState({activePage:1,begin:0,end:9})
   const [recentData, setRecentData] = useState([]);
-  // console.log(recent,"recent")
 
  useEffect(()=>{
   chagePageC()
